@@ -5,8 +5,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  color: rgb(255, 73, 41);
-  background-color: rgb(35, 35, 35);
+  color: rgb(249, 55, 21);
 }
 
 .body1 {
@@ -51,6 +50,10 @@
   gap: 20px;
 }
 
+tr:nth-child(even) {
+  background-color: rgb(78, 78, 78);
+}
+
 .refresh-btn {
   font-size: 16px;
   font-weight: 700;
@@ -69,14 +72,9 @@
 }
 
 .score-section {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  width: 100%;
   border: 2px solid black;
-}
-
-tr:nth-child(even) {
-  background-color: white;
+  border-collapse: collapse;
 }
 
 .form-btn {
