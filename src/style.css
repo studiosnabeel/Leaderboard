@@ -1,5 +1,8 @@
 .hello {
   color: red;
+  background: url('./icon.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 body {
   background-color: bisque;
