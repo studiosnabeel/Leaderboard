@@ -8,6 +8,11 @@
   align-items: center;
 }
 
+.refresh {
+  display: flex;
+  gap: 12px;
+}
+
 .add-score {
   display: flex;
   flex-direction: column;
