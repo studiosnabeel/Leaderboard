@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-. .add-score {
+.add-score {
   display: flex;
   flex-direction: column;
   padding: 50px;
