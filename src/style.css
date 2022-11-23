@@ -80,6 +80,10 @@
   flex-direction: column;
 }
 
+div.score-section > div:nth-of-type(even) {
+  background-color: rgb(33, 130, 154);
+}
+
 .score-li {
   list-style-type: none;
   padding: 2px;
