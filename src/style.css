@@ -5,6 +5,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  color: rgb(252, 98, 70);
+  background-color: rgb(73, 73, 73);
 }
 
 .body1 {
@@ -17,6 +19,7 @@
 
 .main-h1 {
   font-size: 60px;
+  font-weight: 700;
 }
 
 .container {
@@ -31,7 +34,13 @@
   display: flex;
   gap: 12px;
   padding: 10px 0 36px 0;
-  margin: 40px 0 0 0;
+  margin: 20px 0 0 0;
+}
+
+.refresh-h2 {
+  font-size: 40px;
+  font-weight: 400;
+  align-self: center;
 }
 
 .add-score {
@@ -44,15 +53,19 @@
 
 .refresh-btn {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   background-color: white;
   width: 80px;
   height: 30px;
   align-self: center;
+  cursor: pointer;
 }
 
 .form-h2 {
   font-size: 40px;
+  font-weight: 400;
+  align-self: center;
+  margin-bottom: 10px;
 }
 
 .score-section {
@@ -69,11 +82,25 @@
 .score-li {
   list-style-type: none;
   padding: 2px;
+  font-weight: 700;
 }
 
 .form-btn {
   width: 80px;
   height: 30px;
-  font-weight: 600;
+  font-weight: 700;
   background-color: white;
+  align-self: end;
+  cursor: pointer;
+}
+
+.input {
+  font-weight: 600;
+  padding: 3px;
+}
+
+.input::placeholder {
+  font-weight: 700;
+  background-color: white;
+  color: rgb(249, 71, 40);
 }
