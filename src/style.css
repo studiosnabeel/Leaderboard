@@ -6,20 +6,20 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 20px;
+  align-items: flex-start;
+  padding: 30px;
 }
 
 .main-h1 {
   font-size: 60px;
-  align-self: flex-start;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 20px;
+  padding: 0 30px;
 }
 
 .refresh {
@@ -30,8 +30,19 @@
 .add-score {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 50px;
   gap: 20px;
+  margin: 0 0 70px 10px;
+}
+
+.refresh-btn {
+  height: 30px;
+  align-self: center;
+}
+
+.form-h2 {
+  font-size: 40px;
 }
 
 .score-section {
