@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/studiosnabeel/Leaderboard/issues"
   },
-  "homepage": "https://github.com/studiosnabeel/Leaderboard#readme"
+  "homepage": "https://github.com/studiosnabeel/Leaderboard#readme",
+  "devDependencies": {
+    "hint": "^7.1.3"
+  }
 }
