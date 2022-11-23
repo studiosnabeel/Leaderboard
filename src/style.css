@@ -5,11 +5,14 @@
 .body1 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
 }
 
 .main-h1 {
   font-size: 60px;
+  align-self: flex-start;
 }
 
 .container {
@@ -29,4 +32,20 @@
   flex-direction: column;
   padding: 50px;
   gap: 20px;
+}
+
+.score-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 2px solid black;
+}
+
+.score-ul {
+  display: flex;
+}
+
+.score-li {
+  list-style-type: none;
+  padding: 2px;
 }
