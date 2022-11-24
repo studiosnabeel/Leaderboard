@@ -1,6 +1,7 @@
 import addTableData from './data.js';
 
-const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
+const baseUrl =
+  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
 const apiKey = 'XS8cvDPW4bUyTPeVkxvs';
 const apiUrl = `${baseUrl}${apiKey}/scores`;
 
@@ -31,7 +32,7 @@ const AddScoreList = async () => {
   await fetch(apiUrl)
     .then((response) => response.json())
     .then((json) => {
-      addTableData(json.result.sort((x, y) => y.score - x.score));
+      addTableData(json.result.sort((a, b) => a.score - b.score));
     });
 };
 
