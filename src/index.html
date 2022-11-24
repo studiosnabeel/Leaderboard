@@ -13,30 +13,25 @@
         <div class="sub-container">
           <section class="refresh">
             <h2 class="refresh-h2">Recent scores</h2>
-            <button class="refresh-btn" type="submit">Refresh</button>
+            <button class="refresh-btn" type="button">Refresh</button>
           </section>
-          <table class="score-section">
-            <tr>
-              <td>Nabeel:67</td>
-            </tr>
-            <tr>
-              <td>Waseem:86</td>
-            </tr>
-            <tr>
-              <td>Ronaldo:95</td>
-            </tr>
-            <tr>
-              <td>Chritiano:95</td>
-            </tr>
-            <tr>
-              <td>Messy:100</td>
-            </tr>
-          </table>
+          <div class="score-section"></div>
         </div>
-        <form action="" class="add-score">
+        <form action="" class="add-score" id="myform">
           <h2 class="form-h2">Add your score</h2>
-          <input class="input" type="text" placeholder="your name" />
-          <input class="input" type="text" placeholder="your score" />
+          <input
+            name="input1"
+            class="input"
+            type="text"
+            placeholder="your name"
+          />
+          <input
+            name="input2"
+            class="input"
+            type="number"
+            placeholder="your score"
+          />
+          <h4></h4>
           <button class="form-btn" type="submit">Submit</button>
         </form>
       </section>
