@@ -10,4 +10,3 @@ const addTable = (obj, table) => {
 };
 
 export default addTable;
-console.log(addTable);
