@@ -5,12 +5,12 @@ const baseUrl =
   'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
 const apiUrl = `${baseUrl}${apiKey}/scores`;
 
-const addData = async (player, score) => {
+const addData = async (player, scr) => {
   await fetch(apiUrl, {
     method: 'POST',
     body: JSON.stringify({
       user: player,
-      score: score,
+      score: scr,
     }),
     headers: {
       'content-type': 'application/json; charset=UTF-8',
