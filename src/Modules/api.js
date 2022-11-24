@@ -4,12 +4,12 @@ const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/
 const apiKey = 'XS8cvDPW4bUyTPeVkxvs';
 const apiUrl = `${baseUrl}${apiKey}/scores`;
 
-const addData = async (player, scr) => {
+const addData = async (pName, pScore) => {
   await fetch(apiUrl, {
     method: 'POST',
     body: JSON.stringify({
-      user: player,
-      score: scr,
+      user: pName,
+      score: pScore,
     }),
     headers: {
       'content-type': 'application/json; charset=UTF-8',
@@ -31,7 +31,7 @@ const AddScoreList = async () => {
   await fetch(apiUrl)
     .then((response) => response.json())
     .then((json) => {
-      addTableData(json.result.sort((a, b) => a.score - b.score));
+      addTableData(json.result.sort((a, b) => b.score - a.score));
     });
 };
 

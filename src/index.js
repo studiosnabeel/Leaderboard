@@ -1,22 +1,24 @@
 import './style.css';
 import { addData, AddScoreList } from './Modules/api.js';
 
-const myForm = document.querySelector('#myForm');
-const refrshBtn = document.querySelector('.form-btn');
+const myForm = document.querySelector('#myform');
+const refrshBtn = document.querySelector('.refresh-btn');
 
-AddScoreList();
+// AddScoreList();
 
 myForm.addEventListener('submit', (e) => {
   e.preventDefault();
-  const pName = myForm.pName.value.trim();
-  const pScore = myForm.pScore.value;
-  if (pName && pScore) {
-    addData(pName, pScore);
-    myForm.pName.value = '';
-    myForm.pScore.value = '';
+  const playerName = myForm.input1.value.trim();
+  const playerScore = myForm.input2.value;
+  // console.log(playerName, playerScore);
+  if (playerName && playerScore) {
+    addData(playerName, playerScore);
+    myForm.input1.value = '';
+    myForm.input2.value = '';
   }
 });
 
 refrshBtn.addEventListener('click', () => {
+  console.log('click');
   AddScoreList();
 });
