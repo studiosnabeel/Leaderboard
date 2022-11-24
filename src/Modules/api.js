@@ -1,7 +1,6 @@
 import addTableData from './data.js';
 
-const baseUrl =
-  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
+const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
 const apiKey = 'XS8cvDPW4bUyTPeVkxvs';
 const apiUrl = `${baseUrl}${apiKey}/scores`;
 
