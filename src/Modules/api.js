@@ -1,5 +1,4 @@
 import addTableData from './data.js';
-import addTable from './data.js';
 
 const apiKey = 'XS8cvDPW4bUyTPeVkxvs';
 const baseUrl =
