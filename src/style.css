@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,700&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: rgb(28, 28, 28);
+}
+
+.body1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.main-h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0 45px;
+}
+
+.refresh {
+  display: flex;
+  gap: 12px;
+  padding: 10px 0 36px 0;
+  margin: 20px 0 0 0;
+}
+
+.refresh-h2 {
+  font-size: 40px;
+  font-weight: 400;
+  align-self: center;
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  gap: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(255, 85, 85);
+}
+
+.refresh-btn {
+  font-size: 16px;
+  font-weight: 700;
+  background-color: rgb(255, 85, 85);
+  width: 80px;
+  height: 30px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.form-h2 {
+  font-size: 40px;
+  font-weight: 400;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+.score-section {
+  width: 100%;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.form-btn {
+  width: 80px;
+  height: 30px;
+  font-weight: 700;
+  background-color: rgb(255, 85, 85);
+  align-self: end;
+  cursor: pointer;
+}
+
+.input {
+  font-weight: 600;
+  padding: 3px;
+}
+
+.input::placeholder {
+  font-weight: 700;
+  background-color: rgb(255, 255, 255);
+  color: rgb(31, 31, 31);
+}
