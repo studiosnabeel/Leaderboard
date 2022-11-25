@@ -118,4 +118,8 @@ footer {
   .container {
     flex-direction: column;
   }
+
+  footer {
+    margin: 0;
+  }
 }
