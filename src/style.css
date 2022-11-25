@@ -14,8 +14,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px;
-  width: 100%;
   height: auto;
 }
 
@@ -35,14 +33,14 @@ body {
 .refresh {
   display: flex;
   gap: 12px;
-  padding: 10px 0 36px 0;
-  margin: 20px 0 0 0;
+  padding: 20px 0 36px 0;
 }
 
 .refresh-h2 {
   font-size: 40px;
   font-weight: 400;
   align-self: center;
+  text-align: center;
 }
 
 .add-score {
@@ -50,8 +48,8 @@ body {
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 50px;
-  gap: 20px;
+  padding: 0 50px 0 50px;
+  margin: 0 0 120px 0;
 }
 
 tr:nth-child(even) {
@@ -94,7 +92,8 @@ tr:nth-child(even) {
 
 .input {
   font-weight: 600;
-  padding: 3px;
+  padding: 6px;
+  margin: 30px 0 0 0;
 }
 
 .input::placeholder {
@@ -118,13 +117,5 @@ footer {
 @media only screen and (max-width: 870px) {
   .container {
     flex-direction: column;
-  }
-
-  .add-score {
-    order: 1;
-  }
-
-  .sub-container {
-    order: 2;
   }
 }
