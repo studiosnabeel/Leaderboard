@@ -43,6 +43,11 @@ body {
   text-align: center;
 }
 
+table {
+  width: 100%;
+  border-collapse: unset;
+}
+
 .add-score {
   display: flex;
   flex-direction: column;
