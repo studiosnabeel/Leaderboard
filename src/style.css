@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,700&display=swap');
 
-* {
-  font-family: 'Lato', sans-serif;
+body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Lato', sans-serif;
   color: rgb(28, 28, 28);
+  background-color: rgba(215, 215, 215, 0.7);
 }
 
 .body1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  padding: 30px;
+  align-items: center;
+  height: auto;
 }
 
 .main-h1 {
@@ -32,22 +33,23 @@
 .refresh {
   display: flex;
   gap: 12px;
-  padding: 10px 0 36px 0;
-  margin: 20px 0 0 0;
+  padding: 20px 0 36px 0;
 }
 
 .refresh-h2 {
   font-size: 40px;
   font-weight: 400;
   align-self: center;
+  text-align: center;
 }
 
 .add-score {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
-  gap: 20px;
+  flex-wrap: wrap;
+  padding: 0 50px 0 50px;
+  margin: 0 0 120px 0;
 }
 
 tr:nth-child(even) {
@@ -75,6 +77,8 @@ tr:nth-child(even) {
   width: 100%;
   border: 2px solid black;
   border-collapse: collapse;
+  overflow-y: scroll;
+  height: 300px;
 }
 
 .form-btn {
@@ -88,11 +92,34 @@ tr:nth-child(even) {
 
 .input {
   font-weight: 600;
-  padding: 3px;
+  padding: 6px;
+  margin: 30px 0 0 0;
 }
 
 .input::placeholder {
   font-weight: 700;
   background-color: rgb(255, 255, 255);
   color: rgb(31, 31, 31);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  gap: 20px;
+  margin-top: 160px;
+}
+
+@media only screen and (max-width: 870px) {
+  .container {
+    flex-direction: column;
+  }
+
+  footer {
+    margin: 0;
+  }
 }
