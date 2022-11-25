@@ -1,58 +1,105 @@
-# Leaderboard
+<a name="readme-top"></a>
 
-> This is just a simple project under the supervision of the Microverse platform that tests how descriptive our repo instruction (pull requests description, readme file, html & css and javascirpt)
+# 📗 Table of Contents
 
-## Built With
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+- [👥 Authors](#authors)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
 
-- HTML
-- CSS
-- JavaScript
+<!-- PROJECT DESCRIPTION -->
 
-## Getting Started
+# 📖 Leaderboard <a name="about-project"></a>
 
-To get a local copy up and running follow these simple example steps.
+> Leaderboard - a website that shows all scores added by different users. On this website, you can also add your score.
 
-### Prerequisites
+## 🛠 Built With <a name="built-with"></a>
 
-- You must have a code editor installed (VS code or Atom).
+### Tech Stack <a name="tech-stack"></a>
 
-### Setup
+<details>
+  <summary>Languages</summary>
+  <ul>
+    <li>Html/CSS</li>
+    <li>JavaScript</li>
+  </ul>
+</details>
 
-- git clone `https://github.com/studiosnabeel/awesomebooks-with-es6.git`
+<!-- Features -->
+<br>
 
-- cd awesomebooks-with-es6/
+### Key Features <a name="key-features"></a>
 
-- git init
+- **Connect to the Leaderboard API**
+- **"Refresh" and "Submit" buttons**
+- **Async & await operations**
 
-- git checkout -b feature branch name
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- code .
+<!-- LIVE DEMO -->
 
-- git add . (to stage a file)
+## 🚀 Live Demo <a name="live-demo"></a>
 
-- git commit -m "name of commit" (To commit an action)
+- [Live Demo Link](https://studiosnabeel.github.io/Leaderboard/dist/)
 
-- git push -u origin main
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Authors
+<!-- GETTING STARTED -->
 
-:bust_in_silhouette: **Author**
+## 💻 Getting Started <a name="getting-started"></a>
 
-- GitHub: [@githubhandle](https://github.com/studiosnabeel)
+<ul>
+  <li>Get a copy of the project</li>
+  <li>Come into the project directory</li>
+  <li>Open the project using code editor of your choice</li>
+  <li>Open your prefered browser</li>
+</ul>
 
-## :handshake: Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Contributions, issues, and feature requests.
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Author1**
+
+- GitHub: [studiosnabeel](https://github.com/studiosnabeel)
+- Twitter: [StudiosNabeel](https://twitter.com/StudiosNabeel)
+- LinkedIn: [NabeelAkbar](https://www.linkedin.com/in/nabeel-akbar-7a474924a/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
 Feel free to check the [issues page](https://github.com/studiosnabeel/Leaderboard/issues).
 
-## Acknowledgments
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- Microverse documentation.
+<!-- SUPPORT -->
 
-## :memo: License
+## ⭐️ Show your support <a name="support"></a>
 
-This project is [MIT](./LICENSE) licensed.
+Give a **Star** if you like this project!
 
-## Repository Link
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-https://github.com/studiosnabeel/Leaderboard
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/studiosnabeel/Leaderboard/blob/dev/LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
